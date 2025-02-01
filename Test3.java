@@ -144,12 +144,14 @@ public class Test3 {
                                 }
                             }
                         }
-                        else{
+                    }for (int i = 0; i < numbersResult.length; i++) {
+
+                        if (!(number11.equals(numbersResult[i]))) {
                             throw new Exception();
+                        }
                     }
+                }
 
-
-                    }
                 }
                 if (input.contains("-")) {
                     int index4 = input.indexOf("-");
@@ -184,13 +186,15 @@ public class Test3 {
                                     }
                                 }
                             }
-                        }
-                        else{
+
+                                }
+                            }
+                    for (int i = 0; i < numbersResult.length; i++) {
+                        if (!(number11.equals(numbersResult[i]))) {
                             throw new Exception();
                         }
+                        }
                     }
-                }
-            }
             if (input.contains("*")) {
                 int index4 = input.indexOf("*");
                 String number1 = input.substring(0, index4);
@@ -220,8 +224,11 @@ public class Test3 {
                                 }
                             }
                         }
-                    }
-                    else{
+
+                            }
+                        }
+                for (int i = 0; i < numbersResult.length; i++) {
+                    if (!(number11.equals(numbersResult[i]))) {
                         throw new Exception();
                     }
                 }
@@ -264,12 +271,15 @@ public class Test3 {
                                     }
                                 }
                             }
-                            else{
-                                throw new Exception();
-                            }
+
                         }
                     }
 
+                }
+                for (int i = 0; i < numbersResult.length; i++) {
+                if (!(number11.equals(numbersResult[i]))) {
+                    throw new Exception();
+                }
                 }
             }
             return null;
