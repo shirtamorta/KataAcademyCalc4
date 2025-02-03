@@ -42,7 +42,7 @@ public class Test3 {
                     String number22 = number2.trim();
                     int a1 = Integer.parseInt(number11);
                     int a2 = Integer.parseInt(number22);
-                    if (!(a1 <= 10 && a2 <= 10)) {
+                    if (!((a1 <= 10 && a2 <= 10) && (a1 > 0 && a2 > 0))) {
                         throw new IOException();
                     } else {
                         if (input.contains("-")) {
@@ -62,7 +62,7 @@ public class Test3 {
                     String number22 = number2.trim();
                     int a1 = Integer.parseInt(number11);
                     int a2 = Integer.parseInt(number22);
-                    if (!(a1 <= 10 && a2 <= 10)) {
+                    if (!((a1 <= 10 && a2 <= 10) && (a1 > 0 && a2 > 0)))  {
                         throw new Exception();
                     } else {
                         resultArithmeticOperation = a1 * a2;
@@ -79,7 +79,7 @@ public class Test3 {
                     String number22 = number2.trim();
                     int a1 = Integer.parseInt(number11);
                     int a2 = Integer.parseInt(number22);
-                    if (!(a1 <= 10 && a2 <= 10)) {
+                    if (!((a1 <= 10 && a2 <= 10) && (a1 > 0 && a2 > 0)))  {
                         throw new Exception();
                     } else {
                         resultArithmeticOperation = a1 / a2;
@@ -96,7 +96,7 @@ public class Test3 {
                     String number22 = number2.trim();
                     int a1 = Integer.parseInt(number11);
                     int a2 = Integer.parseInt(number22);
-                    if (!(a1 <= 10 && a2 <= 10)) {
+                    if (!((a1 <= 10 && a2 <= 10) && (a1 > 0 && a2 > 0)))  {
                         throw new Exception();
                     } else {
                         resultArithmeticOperation = a1 + a2;
